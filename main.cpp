@@ -5,11 +5,9 @@ using namespace std;
 
 int main()
 {
-    Wizytowka wizytowka;
-    wizytowka.get_imie();
-    wizytowka.get_nazwisko();
-    wizytowka.get_adres();
-    wizytowka.get_nr();
-    wizytowka.prezentacja();
+    Wizytowka osoby;
+    osoby.get_wiek();
+    osoby.porownanie();
+
     return 0;
 }

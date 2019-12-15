@@ -9,19 +9,24 @@ class Wizytowka
         Wizytowka();
         virtual ~Wizytowka();
 
-        //void prezentacja();
-        //void get_imie();
-        //void get_nazwisko();
-        //void get_adres();
-        //void get_nr();
+        void get_imie();
+        void get_nazwisko();
+        void get_adres();
+        void get_pesel();
         void get_wiek();
-        int porownanie();
+
+        void set_imie();
+        void set_nazwisko();
+        void set_adres();
+        void set_pesel();
+        void set_wiek();
 
     protected:
 
     private:
-        //std::string imie,nazwisko,adres,nr;
-        int wiek1,wiek2;
+        std::string imie,nazwisko,adres;
+        int wiek;
+        long long pesel;
 
 };
 
